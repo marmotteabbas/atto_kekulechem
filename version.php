@@ -28,6 +28,7 @@ $plugin->version   = 2019092100;        // The current plugin version (Date: YYY
 $plugin->requires  = 2016051900;        // Requires this Moodle version.
 $plugin->component = 'atto_kekulechem';  // Full name of the plugin (used for diagnostics).
 $plugin->maturity  = MATURITY_STABLE;
+$plugin->release   = '1.0';
 $plugin->dependencies = array(
     'local_kekulejs' => 2018061000
 );
