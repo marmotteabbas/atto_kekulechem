@@ -74,7 +74,7 @@ function atto_kekulechem_params_for_js($elementid, $options, $foptions) {
     }
 
     $params = array(
-        'kekuleCssUrl' => $CFG->httpswwwroot . kekulejs_configs::getScriptDir() . 'kekule.js.0.8.1.19013000/themes/default/kekule.css',
+        'kekuleCssUrl' => $CFG->httpswwwroot . kekulejs_configs::getScriptDir() . 'kekule.js.01012020/themes/default/kekule.css',
         'kekuleMoodleCssUrl' => $CFG->httpswwwroot . kekulejs_configs::getAdapterDir() . 'kekuleMoodle.css',
         'attoKekulePluginPath' => $CFG->httpswwwroot . '/lib/editor/atto/plugins/kekulechem/',
         'purifyHtml' => $purifyHtml
