@@ -30,5 +30,5 @@ $plugin->component = 'atto_kekulechem';  // Full name of the plugin (used for di
 $plugin->maturity  = MATURITY_STABLE;
 $plugin->release   = '1.0';
 $plugin->dependencies = array(
-    'local_kekulejs' => 2018061000
+    'local_kekulejs' => 2020010101
 );
